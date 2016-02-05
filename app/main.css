@@ -1,0 +1,12 @@
+:root {
+  --black: #222;
+  --white: #fff;
+  --red: #cf4646;
+}
+
+body {
+  background: var(--red);
+  color: var(--white);
+  font-size: 13px;
+  font-family: sans-serif;
+}

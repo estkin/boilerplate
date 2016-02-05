@@ -1,0 +1,20 @@
+{
+  "name": "your-package",
+  "version": "0.0.0",
+  "description": "your-description",
+  "main": "your-entry-point",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo your-test-script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-repo"
+  },
+  "keywords": [
+    "your-keywords"
+  ],
+  "author": "your-name",
+  "license": "MIT"
+}
