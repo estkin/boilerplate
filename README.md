@@ -1,4 +1,4 @@
-# Boilerplate
+# Boilerplate [![devDependency Status](https://david-dm.org/estkin/boilerplate/dev-status.svg)](https://david-dm.org/estkin/boilerplate#info=devDependencies)
 > Front-end boilerplate for working with react, react-router, postcss, cssnext and webpack + hot reloading
 
 ## Installation
@@ -7,7 +7,7 @@ git clone https://github.com/estkin/boilerplate.git
 cd boilerplate
 npm install
 ```
-**Run dev server with hot reloading (it should not be production server)**
+**Run dev server with hot reloading (it really should not be production server!)**
 ```
 npm start
 ```
