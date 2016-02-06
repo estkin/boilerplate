@@ -15,7 +15,7 @@ open browser at [http://localhost:3000/](http://localhost:3000/)
 
 **Compile production file into dist directory**
 ```
-npm run prod
+npm run build
 ```
 
 ## Own package.json
