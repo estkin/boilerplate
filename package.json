@@ -1,10 +1,13 @@
 {
   "name": "boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate for using webpack with react and postcss + cssnext",
+  "version": "1.1.0",
+  "description": "Front-end boilerplate for working with react, react-router, postcss, cssnext and webpack + hot reloading",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo 'No test for you'"
+    "clear": "rimraf dist",
+    "dev": "cross-env NODE_ENV=development webpack --config webpack.config.dev.js",
+    "build": "npm run clear && cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +19,16 @@
     "postcss",
     "react",
     "webpack",
-    "javascript"
+    "javascript",
+    "reactjs",
+    "react-router",
+    "cssnext",
+    "babel",
+    "hmr",
+    "hot",
+    "reload",
+    "express",
+    "server"
   ],
   "author": "estkin",
   "license": "MIT",
@@ -30,7 +42,11 @@
     "babel-loader": "^6.2.2",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.1.0",
+    "cross-env": "^1.0.7",
     "css-loader": "^0.23.1",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.13.4",
     "history": "^2.0.0",
     "postcss-cssnext": "^2.4.0",
     "postcss-loader": "^0.8.0",
@@ -38,7 +54,10 @@
     "react-addons-css-transition-group": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-router": "^1.0.3",
+    "rimraf": "^2.5.1",
     "style-loader": "^0.13.0",
-    "webpack": "^1.12.13"
+    "webpack": "^1.12.13",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-hot-middleware": "^2.6.4"
   }
 }
