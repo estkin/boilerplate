@@ -3,7 +3,7 @@
 
 ## Installation
 ```
-git clone https://github.com/estkin/boilerplate.css.git
+git clone https://github.com/estkin/boilerplate.git
 cd boilerplate
 npm install
 ```
