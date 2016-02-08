@@ -8,7 +8,7 @@ module.exports = {
   entry: [
     'eventsource-polyfill',
     'webpack-hot-middleware/client',
-    './app/main'
+    './app/App'
   ],
   output: {
     path: path.join(__dirname, 'dist'),

@@ -6,7 +6,7 @@ const cssnext = require('postcss-cssnext');
 module.exports = {
   devtool: 'source-map',
   entry: [
-    './app/main'
+    './app/App'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
