@@ -6,7 +6,7 @@ const cssnext = require('postcss-cssnext');
 module.exports = {
   devtool: 'source-map',
   entry: [
-    './app/App'
+    './src/App'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
@@ -32,7 +32,7 @@ module: {
         test: /\.js?/,
         exclude: /(node_modules|bower_components)/,
         loaders: ['babel'],
-        include: path.join(__dirname, 'app')
+        include: path.join(__dirname, 'src')
       },
       {
         test: /\.css$/,
@@ -44,7 +44,7 @@ module: {
   postcss: function () {
     return {
       defaults: [autoprefixer, cssnext],
-      cleaner:  [autoprefixer({ browsers: [] })]
+      cleaner:  [autoprefixer({ browsers: ['last 2 version'] })]
     };
   }
 };

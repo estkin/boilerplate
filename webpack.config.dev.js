@@ -8,7 +8,7 @@ module.exports = {
   entry: [
     'eventsource-polyfill',
     'webpack-hot-middleware/client',
-    './app/App'
+    './src/App'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
@@ -25,7 +25,7 @@ module.exports = {
         test: /\.jsx?/,
         exclude: /(node_modules|bower_components)/,
         loaders: ['babel'],
-        include: path.join(__dirname, 'app')
+        include: path.join(__dirname, 'src')
       },
       {
         test: /\.css$/,
@@ -37,7 +37,7 @@ module.exports = {
   postcss: function () {
     return {
       defaults: [autoprefixer, cssnext],
-      cleaner:  [autoprefixer({ browsers: [] })]
+      cleaner:  [autoprefixer({ browsers: ['last 2 version'] })]
     };
   }
 };
