@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+}
+
+nav li {
+  float: left;
+  list-style: none;
+  &:not(:first-child),
+  &:not(:last-child) {
+    background: color(var(--red) blackness(30%));
+  }
+  &:first-child,
+  &:last-child {
+    background: color(var(--red) blackness(30%));
+  }
+  &:first-child {
+    border-radius: 3px 0px 0px 3px;
+  }
+  &:last-child {
+    border-radius: 0px 3px 3px 0px;
+  }
+}
+
+nav li a {
+  display: block;
+  color: var(--white);
+  text-decoration: none;
+  padding: 1em;
+}
