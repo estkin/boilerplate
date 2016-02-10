@@ -1,4 +1,5 @@
-# Boilerplate [![devDependency Status](https://david-dm.org/estkin/boilerplate/dev-status.svg)](https://david-dm.org/estkin/boilerplate#info=devDependencies)
+# Boilerplate [![devDependency Status](https://david-dm.org/estkin/boilerplate/dev-status.svg)](https://david-dm.org/estkin/boilerplate#info=devDependencies) [![travis Status](https://api.travis-ci.org/estkin/boilerplate.svg?branch=master)](https://travis-ci.org/estkin/boilerplate) 
+
 > Front-end boilerplate for working with react, react-router, postcss, cssnext and webpack + hot reloading
 
 ## Getting started
