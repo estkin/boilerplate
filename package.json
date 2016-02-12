@@ -1,6 +1,6 @@
 {
   "name": "boilerplate",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Front-end boilerplate for working with react, react-router, postcss, cssnext and webpack + hot reloading",
   "main": "webpack.config.js",
   "scripts": {
@@ -28,7 +28,9 @@
     "hot",
     "reload",
     "express",
-    "server"
+    "server",
+    "dev",
+    "production"
   ],
   "author": "estkin",
   "license": "MIT",
@@ -48,6 +50,7 @@
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.13.4",
     "history": "^2.0.0",
+    "html-webpack-plugin": "^2.8.1",
     "postcss-cssnext": "^2.4.0",
     "postcss-import": "^8.0.2",
     "postcss-loader": "^0.8.0",
