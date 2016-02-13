@@ -6,7 +6,5 @@ import routes from './config/routes'
 import './App.css'
 
 render((
-  <Router history={ browserHistory }>
-    { routes }
-  </Router>
+  <Router history={browserHistory} routes={routes}/>
 ), document.getElementById('app'))
