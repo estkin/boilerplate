@@ -3,7 +3,6 @@ nav {
 }
 
 nav li {
-  float: left;
   list-style: none;
   &:not(:first-child),
   &:not(:last-child) {
